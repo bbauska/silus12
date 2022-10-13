@@ -5,8 +5,8 @@ Note: Please use our back link in your site
 $( function() {
 // Add background image
 		$.backstretch('images/Silus Happy BDay from Bikini Bottom.jpg');
-	// set date of birth to the 100th of a second.
-        var endDate = "Oct  10, 2022 23:59:59";
+	// set date of birth to October 11th, 6:59am & 59 seconds.
+        var endDate = "Oct  11, 2023 06:59:59";
 
         $('.countdown.simple').countdown({ date: endDate });
 

@@ -100,7 +100,7 @@ width:34px;
 height:34px; 
 display: inline-block;
 }
-.twitterIcon, .facebookIcon, .linkedInIcon, .pintrestIcon{
+.facebookIcon, .youtubeIcon, .twitterIcon, .snapchatIcon, .githubIcon, .codepenIcon{
 background: url('../images/social-icons.png') -74px 0px;
 }
 .facebookIcon{
@@ -110,8 +110,17 @@ background-position: 10px 0px;
 background: url('../images/youtube.png') -74px 0px;
 background-position: -245px 0px;
 }
-.pintrestIcon{
+.twitterIcon{
 background-position: -331px 0px;
+}
+.snapchatIcon{
+background-position: -417px 0px;
+}
+.githubIcon{
+background-position: -503px 0px;
+}
+.codepenIcon{
+background-position: -589px 0px;
 }
 .tempBy{
 display:block;
@@ -167,7 +176,6 @@ padding: 9px 25px;
 cursor: pointer;
 margin-left: -5px;
 }
-
 
 .callback,
 .simple {

@@ -300,8 +300,6 @@ margin:10px;
 // Please change your favorite font-size!
 $fontSize: 8rem;
 
-
-
 body {
   background: rgba(20, 5, 5, 1);
   height: 100vh;
@@ -368,6 +366,7 @@ div {
   }
 }
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
 *{
   margin: 0;
   padding: 0;

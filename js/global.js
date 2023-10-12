@@ -3,7 +3,7 @@ $( function() {
   // Add background image
   $.backstretch('images/Silus Happy BDay from Bikini Bottom.jpg');
     // set date of birth to October 11th, 11:59am & 59 seconds.
-    var endDate = "Oct  11, 2023 11:59:59";
+    var endDate = "Oct  11, 2024 11:59:59";
     $('.countdown.simple').countdown({ date: endDate });
       $('.countdown.styled').countdown({
         date: endDate,

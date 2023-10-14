@@ -1,69 +1,69 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
 body {
-	color:#FFF; 
-	font-family: 'Oswald', sans-serif; 
-	min-width:960px;
-	top:0;
-	left:0;
-	position:absolute;
-	height:100%;
-	width:100%;
-	margin:0;
-	/*background:url(../images/road2.jpg) no-repeat;*/
-	background-size:cover;
+    color:#FFF; 
+    font-family: 'Oswald', sans-serif; 
+    min-width:960px;
+    top:0;
+    left:0;
+    position:absolute;
+    height:100%;
+    width:100%;
+    margin:0;
+    /*background:url(../images/road2.jpg) no-repeat;*/
+    background-size:cover;
 }
 .ie body {
-	filter: dropshadow(color=#000000, offx=0, offy=1);	
+    filter: dropshadow(color=#000000, offx=0, offy=1);    
 }
 h1 {
-	font-size:68px;
-	letter-spacing:-2px;	
-	line-height:60px;
-	margin:25px 0;  
-	text-align:center;
-	margin-left:15px;
-	padding-top:20px;
+    font-size:68px;
+    letter-spacing:-2px;    
+    line-height:60px;
+    margin:25px 0;  
+    text-align:center;
+    margin-left:15px;
+    padding-top:20px;
 }
 .ie h1 {
-	filter: dropshadow(color=#000000, offx=0, offy=3);
-	padding-bottom:12px;	
+    filter: dropshadow(color=#000000, offx=0, offy=3);
+    padding-bottom:12px;    
 }
 h2 { 
 }
 .ie h2 {
-	filter: dropshadow(color=#000000, offx=0, offy=3);
+    filter: dropshadow(color=#000000, offx=0, offy=3);
 }
 h3 {
-	font-size:25px;
-	margin:0.2em 0; 
+    font-size:25px;
+    margin:0.2em 0; 
 }
 .ie h3 {
-	filter: dropshadow(color=#000000, offx=0, offy=3);
+    filter: dropshadow(color=#000000, offx=0, offy=3);
 }
 h4 {
-	margin-bottom:5px;	
+    margin-bottom:5px;    
 }
 p, pre {
-	margin:0 0 10px 0; 
+    margin:0 0 10px 0; 
 }
 code {
-	text-transform:uppercase !important;
-	color:#EEE;	
-	border-bottom:1px dotted #666;
+    text-transform:uppercase !important;
+    color:#EEE;    
+    border-bottom:1px dotted #666;
 }
 small {
-	background:url(../images/alpha.png);
-	background:rgba(0, 0, 0, 0.8) url();	
-	border:1px solid #111;
-	font-size:15px;
-	padding:0 5px;
+    background:url(../images/alpha.png);
+    background:rgba(0, 0, 0, 0.8) url();    
+    border:1px solid #111;
+    font-size:15px;
+    padding:0 5px;
 }
 a {
-	color:rgba(0, 210, 255, 1);
-	text-decoration:none;	
+    color:rgba(0, 210, 255, 1);
+    text-decoration:none;    
 }
 a:hover {
-	color:#BBB;	
+    color:#BBB;    
 } 
 #Header {
 margin-bottom: 62px;
@@ -252,49 +252,49 @@ float:right;
 margin:10px;
 }
 @media(max-width:768px){
-	body {
-	min-width: initial !important;
-	}
-	.wrapper{width:100%;}
-	.styled div {
-	  margin-bottom:10px; 
-	}
+    body {
+    min-width: initial !important;
+    }
+    .wrapper{width:100%;}
+    .styled div {
+      margin-bottom:10px; 
+    }
 }
 @media(max-width:420px){
-	h1{
-	float:initial;
-	text-align: center;
-	margin-left:0px;
-	margin-bottom:0px;
-	}
-	.styled div {
-	  margin-bottom:10px;
-	  font-size: 40px;
-	  font-weight: normal; 
-	  text-align: center;
-	  width:80px; 
-	  border-radius:80px; 
-	  height:80px;  
-	}
-	#Content h2 {
-	margin: 0px 0px 0px 0px;
-	padding: 0px;
-	text-align: center;
-	font-size: 29px;
-	font-weight: 300;
-	}
-	.styled {
-	margin-bottom: 30px;
-	}
-	#subscribe input[type="button"]{
-	margin-top:10px;
-	}
-	#subscribe input{
-	width:80%;
-	}
-	footer{
-	position:relative !important;
-	}
+    h1{
+    float:initial;
+    text-align: center;
+    margin-left:0px;
+    margin-bottom:0px;
+    }
+    .styled div {
+      margin-bottom:10px;
+      font-size: 40px;
+      font-weight: normal; 
+      text-align: center;
+      width:80px; 
+      border-radius:80px; 
+      height:80px;  
+    }
+    #Content h2 {
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 29px;
+    font-weight: 300;
+    }
+    .styled {
+    margin-bottom: 30px;
+    }
+    #subscribe input[type="button"]{
+    margin-top:10px;
+    }
+    #subscribe input{
+    width:80%;
+    }
+    footer{
+    position:relative !important;
+    }
 }
 /* Silus */
 // Please change your favorite font-size!
@@ -422,7 +422,16 @@ html,body{
   background: #000000;
 }
 .wrapper .button:nth-child(6):hover .icon{
+  background: #000000;
+}
+.wrapper .button:nth-child(7):hover .icon{
+  background: #aa2200;
+}
+.wrapper .button:nth-child(8):hover .icon{
   background: #47cf73;
+}
+.wrapper .button:nth-child(9):hover .icon{
+  background: #013220;
 }
 .wrapper .button .icon i{
   font-size: 25px;
@@ -440,20 +449,29 @@ html,body{
   transition: all 0.3s ease-out;
 }
 .wrapper .button:nth-child(1) span{
-  color: #4267b2;
+  color: #4267b2;  /* facebook */
 }
 .wrapper .button:nth-child(2) span{
-  color: #ff0000;
+  color: #1da1f2;  /* twitter */
 }
 .wrapper .button:nth-child(3) span{
-  color: #1da1f2;
+  color: #ff0000;  /* youtube */
 }
 .wrapper .button:nth-child(4) span{
-  color: #fffc00;
+  color: #0a66c2;  /* linkedin */
 }
 .wrapper .button:nth-child(5) span{
-  color: #000000;
+  color: #fffc00;  /* snapchat */
 }
 .wrapper .button:nth-child(6) span{
-  color: #47cf73;
+  color: #000000;  /* github */
+}
+.wrapper .button:nth-child(7) span{
+  color: #aa2200;  /* quora */
+}
+.wrapper .button:nth-child(8) span{
+  color: #47cf73; /* codepen */
+}
+.wrapper .button:nth-child(9) span{
+  color: #013220;  /* e-mail */
 }

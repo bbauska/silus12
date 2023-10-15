@@ -7,7 +7,7 @@ Dual licensed under the MIT (https://www.opensource.org/licenses/mit-license.php
 and GPL-3.0 (https://opensource.org/licenses/GPL-3.0) licenses.
 
 @source: https://github.com/rendro/countdown/
-@autor: Robert Fleischmann
+@author: Robert Fleischmann
 @version: 1.0.1
 */
 
@@ -111,7 +111,7 @@ and GPL-3.0 (https://opensource.org/licenses/GPL-3.0) licenses.
       return this.init();
     };
     $.countdown.defaultOptions = {
-      date: "June 7, 2087 15:03:25",
+      date: "June 7, 2027 15:03:25",
       refresh: 1000,
       onEnd: $.noop,
       render: function(date) {

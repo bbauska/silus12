@@ -261,31 +261,34 @@ div {
   transition: all 0.3s ease-out;
 }
 .wrapper .button:nth-child(1):hover .icon{
-  background: #4267b2;
+  background: #4267b2;  /* facebook */
 }
 .wrapper .button:nth-child(2):hover .icon{
-  background: #ff0000;
+  background: #1da1f2;  /* twitter */
 }
 .wrapper .button:nth-child(3):hover .icon{
-  background: #1da1f2;
+  background: #ff0000;  /* youtube */
 }
 .wrapper .button:nth-child(4):hover .icon{
-  background: #fffc00;
+  background: #fffcc0;  /* snapchat */
 }
 .wrapper .button:nth-child(5):hover .icon{
-  background: #000000;
+  background: #000000;  /* github */
 }
 .wrapper .button:nth-child(6):hover .icon{
-  background: #000000;
+  background: #47cf73;  /* codepen */
 }
 .wrapper .button:nth-child(7):hover .icon{
-  background: #aa2200;
+  background: #0077b5;  /* linkedin */
 }
 .wrapper .button:nth-child(8):hover .icon{
-  background: #47cf73;
+  background: #b92b27;  /* quora */
 }
 .wrapper .button:nth-child(9):hover .icon{
-  background: #013220;
+  background: #ff9900;  /* amazon */
+}
+.wrapper .button:nth-child(10):hover .icon{
+  background: #013220;  /* email */
 }
 .wrapper .button .icon i{
   font-size: 25px;
@@ -312,20 +315,23 @@ div {
   color: #ff0000;  /* youtube */
 }
 .wrapper .button:nth-child(4) span{
-  color: #0a66c2;  /* linkedin */
-}
-.wrapper .button:nth-child(5) span{
   color: #fffc00;  /* snapchat */
 }
-.wrapper .button:nth-child(6) span{
+.wrapper .button:nth-child(5) span{
   color: #000000;  /* github */
 }
+.wrapper .button:nth-child(6) span{
+  color: #47cf73;  /* codepen */
+}
 .wrapper .button:nth-child(7) span{
-  color: #aa2200;  /* quora */
+  color: #0077c5;  /* linkedin */
 }
 .wrapper .button:nth-child(8) span{
-  color: #47cf73; /* codepen */
+  color: #b92b27;  /* quora */
 }
 .wrapper .button:nth-child(9) span{
+  color: #ff9900; /* amazon */
+}
+.wrapper .button:nth-child(10) span{
   color: #013220;  /* e-mail */
 }

@@ -329,3 +329,7 @@ div {
 .wrapper .button:nth-child(10) span{
   color: #037d50;  /* e-mail */
 }
+.socialIcons {
+  text-align: center;
+}
+

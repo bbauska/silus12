@@ -265,22 +265,22 @@ div {
   background: #4267b2;  /* facebook */
 }
 .wrapper .button:nth-child(2):hover .icon{
-  background: #1da1f2;  /* twitter */
-}
-.wrapper .button:nth-child(3):hover .icon{
   background: #ff0000;  /* youtube */
 }
+.wrapper .button:nth-child(3):hover .icon{
+  background: #1da1f2;  /* twitter */
+}
 .wrapper .button:nth-child(4):hover .icon{
-  background: #fffcc0;  /* snapchat */
+  background: #fffc00;  /* snapchat */
 }
 .wrapper .button:nth-child(5):hover .icon{
-  background: #000000;  /* github */
+  background: #4078c0;  /* github */
 }
 .wrapper .button:nth-child(6):hover .icon{
-  background: #47cf73;  /* codepen */
+  background: #0ebeff;  /* codepen */
 }
 .wrapper .button:nth-child(7):hover .icon{
-  background: #0077b5;  /* linkedin */
+  background: #0a66c2;  /* linkedin */
 }
 .wrapper .button:nth-child(8):hover .icon{
   background: #b92b27;  /* quora */
@@ -289,7 +289,7 @@ div {
   background: #ff9900;  /* amazon */
 }
 .wrapper .button:nth-child(10):hover .icon{
-  background: #013220;  /* email */
+  background: #037d50;  /* email */
 }
 .wrapper .button .icon i{
   font-size: 25px;
@@ -310,22 +310,22 @@ div {
   color: #4267b2;  /* facebook */
 }
 .wrapper .button:nth-child(2) span{
-  color: #1da1f2;  /* twitter */
+  color: #ff0000;  /* youtube */
 }
 .wrapper .button:nth-child(3) span{
-  color: #ff0000;  /* youtube */
+  color: #1da1f2;  /* twitter */
 }
 .wrapper .button:nth-child(4) span{
   color: #fffc00;  /* snapchat */
 }
 .wrapper .button:nth-child(5) span{
-  color: #000000;  /* github */
+  color: #4078c0;  /* github */
 }
 .wrapper .button:nth-child(6) span{
-  color: #47cf73;  /* codepen */
+  color: #0ebeff;  /* codepen */
 }
 .wrapper .button:nth-child(7) span{
-  color: #0077c5;  /* linkedin */
+  color: #0a66c2;  /* linkedin */
 }
 .wrapper .button:nth-child(8) span{
   color: #b92b27;  /* quora */
@@ -334,5 +334,5 @@ div {
   color: #ff9900; /* amazon */
 }
 .wrapper .button:nth-child(10) span{
-  color: #013220;  /* e-mail */
+  color: #037d50;  /* e-mail */
 }

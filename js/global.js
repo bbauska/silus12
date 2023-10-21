@@ -1,7 +1,7 @@
 /* global.js */
 $( function() {
-  // Add background image for 11th birthday with bikini bottom.
-  $.backstretch('images/Silus-Happy-BDay-from-Bikini-Bottom.jpg');
+  // Add background image for 14th birthday with kitterson.
+  $.backstretch('images/MissK-and-Platinum-Logo.jpg');
     // set date of birth to October 11th, 11:59am & 59 seconds.
     var endDate = "Oct  11, 2024 11:59:59";
     $('.countdown.simple').countdown({ date: endDate });

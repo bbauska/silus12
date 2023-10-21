@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
 
 body {
-  color:#FFF; 
+  color:#fff;  /* white */
   font-family: 'Oswald', sans-serif; 
   min-width:960px;
   top:0;
@@ -55,16 +55,16 @@ code {
 small {
   background:url(../images/alpha.png);
   background:rgba(0, 0, 0, 0.8) url();    
-  border:1px solid #111;
+  border:1px solid #111;  /* very dark gray */
   font-size:15px;
   padding:0 5px;
 }
 a {
-  color:rgba(0, 210, 255, 1);
+  color:rgba(0, 210, 255, 1);  /* pure cyan */
   text-decoration:none;    
 }
 a:hover {
-  color:#BBB;    
+  color:#bbb;  /* gray */
 }
 #Header {
   margin-bottom: 62px;
@@ -95,7 +95,7 @@ a:hover {
   padding: 10px;
 }
 #subscribe input[type="button"]{
-  background: rgba(255, 255, 255, 1);
+  background: rgba(255, 255, 255, 1);  /* white */
   width:auto;
   padding: 9px 25px;
   cursor: pointer;
@@ -118,9 +118,9 @@ a:hover {
   width:100px;
   padding:30px;
   border-radius:80px;
-  background:rgba(255, 255, 255, 0.26);
+  background:rgba(0, 0, 0, 0.26);  /* white */
   height:100px; 
-  background: none repeat scroll 0% 0% rgba(255, 255, 255, 0.15); 
+  background: none repeat scroll 0% 0% rgba(0 , 0, 0, 0.15); 
   text-shadow:none;
   vertical-align: middle; 
   border: 1px solid rgba(255, 255, 255, 0.76);
@@ -135,7 +135,7 @@ a:hover {
 }
 .styled div span {
   display: block;
-  border-top: 1px solid #cecece;
+  border-top: 1px solid #cecece;  /* light gray */
   padding-top: 3px;
   font-size: 19px;
   font-weight: normal; 

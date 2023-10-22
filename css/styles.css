@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
 body {
-  color:#FFF; 
+  color:#fff;  /* white */
   font-family: 'Oswald', sans-serif; 
   min-width:960px;
   top:0;

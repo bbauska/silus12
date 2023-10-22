@@ -25,13 +25,13 @@ h1 {
   padding-top:20px;
 }
 .ie h1 {
-	filter: dropshadow(color=#000000, offx=0, offy=3);
-	padding-bottom:12px;	
+  filter: dropshadow(color=#000000, offx=0, offy=3);
+  padding-bottom:12px;	
 }
 h2 { 
 }
 .ie h2 {
-	filter: dropshadow(color=#000000, offx=0, offy=3);
+  filter: dropshadow(color=#000000, offx=0, offy=3);
 }
 h3 {
   font-size:25px;

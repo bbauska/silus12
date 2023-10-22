@@ -87,7 +87,7 @@ a:hover {
 }
 #subscribe input {
   background: rgba(255, 255, 255, 0.52); 
-  color: #000;
+  color: #fff;
   font: bold 19px;  
   vertical-align: middle;
   width: 293px;
@@ -113,7 +113,7 @@ a:hover {
   margin-left: 10px;
   font-size: 60px;
   font-weight: normal; 
-  text-align: center;
+<!--  text-align: center;  -->
   margin:0 25px;
   width:100px;
   padding:30px;
@@ -139,7 +139,7 @@ a:hover {
   padding-top: 3px;
   font-size: 19px;
   font-weight: normal; 
-  text-align: center;
+<!--  text-align: center;  -->
 }
 footer{
   width:100%;
@@ -174,7 +174,7 @@ footer span{
     margin-bottom:10px;
     font-size: 40px;
     font-weight: normal; 
-    text-align: center;
+<!--    text-align: center;  -->
     width:80px; 
     border-radius:80px; 
     height:80px;  

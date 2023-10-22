@@ -1,109 +1,200 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
-
 body {
-  color:#fff;  /* white */
-  font-family: 'Oswald', sans-serif; 
-  min-width:960px;
-  top:0;
-  left:0;
-  position:absolute;
-  height:100%;
-  width:100%;
-  margin:0;
-  background:url(images/Silus-and-Kitterson.jpg) no-repeat;
-  background-size:cover;
+	color:#FFF; 
+	font-family: 'Oswald', sans-serif; 
+	min-width:960px;
+	top:0;
+	left:0;
+	position:absolute;
+	height:100%;
+	width:100%;
+	margin:0;
+	/*background:url(../images/road2.jpg) no-repeat;*/
+	background-size:cover;
 }
 .ie body {
-  filter: dropshadow(color=#000000, offx=0, offy=1);    
+	filter: dropshadow(color=#000000, offx=0, offy=1);	
 }
 h1 {
-  font-size:68px;
-  letter-spacing:-2px;    
-  line-height:60px;
-  margin:25px 0;  
-  text-align:center;
-  margin-left:15px;
-  padding-top:20px;
+	font-size:68px;
+	letter-spacing:-2px;	
+	line-height:60px;
+	margin:25px 0;  
+	text-align:center;
+	margin-left:15px;
+	padding-top:20px;
 }
 .ie h1 {
-  filter: dropshadow(color=#000000, offx=0, offy=3);
-  padding-bottom:12px;    
+	filter: dropshadow(color=#000000, offx=0, offy=3);
+	padding-bottom:12px;	
 }
 h2 { 
 }
 .ie h2 {
-  filter: dropshadow(color=#000000, offx=0, offy=3);
+	filter: dropshadow(color=#000000, offx=0, offy=3);
 }
 h3 {
-  font-size:25px;
-  margin:0.2em 0; 
+	font-size:25px;
+	margin:0.2em 0; 
 }
 .ie h3 {
-  filter: dropshadow(color=#000000, offx=0, offy=3);
+	filter: dropshadow(color=#000000, offx=0, offy=3);
 }
 h4 {
-  margin-bottom:5px;    
+	margin-bottom:5px;	
 }
 p, pre {
-  margin:0 0 10px 0; 
+	margin:0 0 10px 0; 
 }
 code {
-  text-transform:uppercase !important;
-  color:#EEE;    
-  border-bottom:1px dotted #666;
+	text-transform:uppercase !important;
+	color:#EEE;	
+	border-bottom:1px dotted #666;
 }
 small {
-  background:url(../images/alpha.png);
-  background:rgba(0, 0, 0, 0.8) url();    
-  border:1px solid #111;  /* very dark gray */
-  font-size:15px;
-  padding:0 5px;
+	background:url(../images/alpha.png);
+	background:rgba(0, 0, 0, 0.8) url();	
+	border:1px solid #111;
+	font-size:15px;
+	padding:0 5px;
 }
 a {
-  color:rgba(0, 210, 255, 1);  /* pure cyan */
-  text-decoration:none;    
+	color:rgba(0, 210, 255, 1);
+	text-decoration:none;	
 }
 a:hover {
-  color:#bbb;  /* gray */
-}
+	color:#BBB;	
+} 
 #Header {
-  margin-bottom: 62px;
-  position: relative;
-  width: 100%;
-  height: 119px;
-  line-height: 118px;
-  z-index: 1;
+margin-bottom: 62px;
+position: relative;
+width: 100%;
+height: 119px;
+line-height: 118px;
+z-index: 1;
+}
+.wrapper {
+margin: 0 auto;
+position: relative;
+width: 920px;
+z-index: 1;
+}
+#socialIcons {
+display:block;
+}
+#socialIcons ul {
+margin: 0px; 
+padding:0px;
+text-align: center;
+}
+#socialIcons ul li {
+margin-right: 5px;
+height: 34px;
+line-height: 34px;
+list-style-type: none;
+display: inline-block;
+background: rgba(255, 255, 255, 0.44);
+}
+#socialIcons ul li a{
+width:34px;
+height:34px; 
+display: inline-block;
+}
+.facebookIcon, .youtubeIcon, .twitterIcon, .snapchatIcon, .githubIcon, .codepenIcon{
+background: url('../images/social-icons.png') -74px 0px;
+}
+.facebookIcon{
+background-position: 10px 0px;
+}
+.youtubeIcon, 
+background: url('../images/youtube.png') -74px 0px;
+background-position: -245px 0px;
+}
+.twitterIcon{
+background-position: -331px 0px;
+}
+.snapchatIcon{
+background-position: -417px 0px;
+}
+.githubIcon{
+background-position: -503px 0px;
+}
+.codepenIcon{
+background-position: -589px 0px;
+}
+.tempBy{
+display:block;
+text-align:center;
+margin-top:40px;
+}
+#Content h2 {
+margin: 0px 0px 65px 0px;
+padding: 0px;
+text-align: center;
+font-size: 48px;
+font-weight: 300;
+color:#00D2FF;
+}
+#WindowSlide {
+margin: 0 auto;
+position: relative;
+width: 634px;
+height: 170px;
+display: block;
+overflow: hidden;
+}
+#Mail {
+position: absolute;
+width: 634px;
+top: 0px;
+left: 0px;
 }
 #Content h3 {
-  text-align: center;
-  font-size: 24px;
-  font-weight: normal;
-  display: block;
-  clear: both;
+text-align: center;
+font-size: 24px;
+font-weight: normal;
+display: block;
+clear: both;
 }
 
 #subscribe p{
-  text-align: center;
+text-align:center;
 }
 #subscribe input {
-  background: rgba(255, 255, 255, 0.52); 
-  color: #fff;
-  font: bold 19px;  
-  vertical-align: middle;
-  width: 293px;
-  border: 1px solid rgba(255, 255, 255, 0.76);
-  padding: 10px;
+background: rgba(255, 255, 255, 0.52); 
+color: #000;
+font: bold 19px;  
+vertical-align: middle;
+width: 293px;
+border: 1px solid rgba(255, 255, 255, 0.76);
+padding: 10px;
 }
 #subscribe input[type="button"]{
-  background: rgba(255, 255, 255, 1);  /* white */
-  width:auto;
-  padding: 9px 25px;
-  cursor: pointer;
-  margin-left: -5px;
+background: rgba(255, 255, 255, 1);
+width:auto;
+padding: 9px 25px;
+cursor: pointer;
+margin-left: -5px;
 }
 
+.callback,
+.simple {
+  font-size: 20px;
+  background: #27ae60;
+  padding: 0.5em 0.7em;
+  color: #ecf0f1;
+  margin-bottom: 50px;
+  -webkit-transition: background 0.5s ease-out;
+  transition: background 0.5s ease-out;
+}
+.callback{
+  cursor: pointer;
+}
+.ended {
+  background: #c0392b;
+}
 .countdown {
-  text-align: center;
+text-align:center;
 }
 .styled{
   margin-bottom: 90px;
@@ -113,17 +204,25 @@ a:hover {
   margin-left: 10px;
   font-size: 60px;
   font-weight: normal; 
-<!--  text-align: center;  -->
+  text-align: center;
   margin:0 25px;
   width:100px;
   padding:30px;
   border-radius:80px;
-  background:rgba(0, 0, 0, 0.26);  /* white */
+  background:rgba(255, 255, 255, 0.26);
   height:100px; 
-  background: none repeat scroll 0% 0% rgba(0 , 0, 0, 0.15); 
+  background: none repeat scroll 0% 0% rgba(255, 255, 255, 0.15); 
   text-shadow:none;
   vertical-align: middle; 
   border: 1px solid rgba(255, 255, 255, 0.76);
+}
+#overlay{
+background: rgba(0, 0, 0, 0.56) url(../images/overlays/01.png) top left repeat;
+position: fixed;
+top: 0px;
+width: 100%;
+bottom: 0px;
+opacity:0.8;
 }
 /* IE7 inline-block hack */
 *+html .styled div{
@@ -135,71 +234,68 @@ a:hover {
 }
 .styled div span {
   display: block;
-  border-top: 1px solid #cecece;  /* light gray */
+  border-top: 1px solid #cecece;
   padding-top: 3px;
   font-size: 19px;
   font-weight: normal; 
-<!--  text-align: center;  -->
+  text-align: center;
 }
 footer{
-  width:100%;
-  height:30px;
-  background:rgba(0, 0, 0, 0.64);
-  position:absolute;
-  bottom:0px;
+width:100%;
+height:30px;
+background:rgba(0, 0, 0, 0.64);
+position:absolute;
+bottom:0px;
 }
 footer span{
-  float:right;
-  margin:10px;
+float:right;
+margin:10px;
 }
 @media(max-width:768px){
-  body {
-    min-width: initial !important;
-  }
-  .wrapper{width:100%;}
-  .styled div {
-    margin-bottom:10px; 
-  }
+	body {
+	min-width: initial !important;
+	}
+	.wrapper{width:100%;}
+	.styled div {
+	  margin-bottom:10px; 
+	}
 }
-
-<!-- smart phone width -->
 @media(max-width:420px){
-  h1{
-    float:initial;
-    text-align: center;
-    margin-left:0px;
-    margin-bottom:0px;
-  }
-  .styled div {
-    margin-bottom:10px;
-    font-size: 40px;
-    font-weight: normal; 
-<!--    text-align: center;  -->
-    width:80px; 
-    border-radius:80px; 
-    height:80px;  
-  }
-  #Content h2 {
-    margin: 0px 0px 0px 0px;
-    padding: 0px;
-    text-align: center;
-    font-size: 29px;
-    font-weight: 300;
-  }
-  .styled {
-    margin-bottom: 30px;
-  }
-#subscribe input[type="button"]{
-    margin-top:10px;
-  }
-#subscribe input{
-    width:80%;
-  }
-  footer{
-    position:relative !important;
-  }
+	h1{
+	float:initial;
+	text-align: center;
+	margin-left:0px;
+	margin-bottom:0px;
+	}
+	.styled div {
+	  margin-bottom:10px;
+	  font-size: 40px;
+	  font-weight: normal; 
+	  text-align: center;
+	  width:80px; 
+	  border-radius:80px; 
+	  height:80px;  
+	}
+	#Content h2 {
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+	text-align: center;
+	font-size: 29px;
+	font-weight: 300;
+	}
+	.styled {
+	margin-bottom: 30px;
+	}
+	#subscribe input[type="button"]{
+	margin-top:10px;
+	}
+	#subscribe input{
+	width:80%;
+	}
+	footer{
+	position:relative !important;
+	}
 }
-
 /* Silus */
 // Please change your favorite font-size!
 $fontSize: 8rem;
@@ -219,15 +315,71 @@ div {
   transform-style: preserve-3d;
 }
 
+#ui {
+  .text {
+    position: absolute;
+    font-size: $fontSize;
+    color: #fff;
+    line-height: $fontSize;
+    opacity: 0;
+    font-family: 'Anton', sans-serif;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: screen;
+
+    @for $i from 0 through 100 {
+      $key: $i + 1;
+      &:nth-child(#{$key}) {
+        $row: floor($i / 20);
+        color: rgba(255 - $key * 2, 50 - $key / 2, $key * 3, 1);
+        clip-path: polygon(
+          floor($i / 2) * 10% - $row * 100% $row * 50%,
+          floor($key / 2) * 10% - $row * 100% ceil($key % 2) * 50% + ($row * 50%),
+          ceil($key / 2) * 10% - $row * 100% ($row + 1) * 50%
+        );
+        transform-origin: random(100) - 50 + floor($i / 2) * 10% - $row * 100%  random(100) - 50 + $row * 50%;
+        animation: fly#{$key} 5000ms $i * 40ms cubic-bezier(0.360, 0.100, 0.160, 1.000) infinite alternate;
+        
+        @keyframes fly#{$key} {
+          $initX: random(1000) - 500;
+          $initY: random(1000) - 500;
+          $initZ: random(1000) - 500;
+          $initDepth: random(3000) - 2500;
+          0% {
+            opacity: 0;
+            transform: translate(-50%, -50%) rotateX(#{$initX}deg) rotateY(#{$initY}deg) rotateZ(#{$initZ}deg) translateZ(#{$initDepth}px);
+          }
+          10% {
+            opacity: 0;
+            transform: translate(-50%, -50%) rotateX(#{$initX}deg) rotateY(#{$initY}deg) rotateZ(#{$initZ}deg) translateZ(#{$initDepth}px);
+          }
+          90% {
+            opacity: 1;
+            transform: translate(-50%, -50%) rotate(0deg) rotateY(0deg) rotateZ(0deg) translateZ(0px);
+          }
+          100% {
+            opacity: 1;
+            transform: translate(-50%, -50%) rotate(0deg) rotateY(0deg) rotateZ(0deg) translateZ(0px);
+          }
+        }
+      }
+    }
+  }
+}
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 
-.wrapper {
-  margin: 0 auto;
-  position: relative;
-  width: 920px;
-  z-index: 1;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
-
+html,body{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+}
 .wrapper .button{
   display: inline-block;
   height: 60px;
@@ -255,34 +407,22 @@ div {
   transition: all 0.3s ease-out;
 }
 .wrapper .button:nth-child(1):hover .icon{
-  background: #4267b2;  /* facebook */
+  background: #4267b2;
 }
 .wrapper .button:nth-child(2):hover .icon{
-  background: #ff0000;  /* youtube */
+  background: #ff0000;
 }
 .wrapper .button:nth-child(3):hover .icon{
-  background: #1da1f2;  /* twitter */
+  background: #1da1f2;
 }
 .wrapper .button:nth-child(4):hover .icon{
-  background: #fffc00;  /* snapchat */
+  background: #fffc00;
 }
 .wrapper .button:nth-child(5):hover .icon{
-  background: #4078c0;  /* github */
+  background: #000000;
 }
 .wrapper .button:nth-child(6):hover .icon{
-  background: #0ebeff;  /* codepen */
-}
-.wrapper .button:nth-child(7):hover .icon{
-  background: #0a66c2;  /* linkedin */
-}
-.wrapper .button:nth-child(8):hover .icon{
-  background: #b92b27;  /* quora */
-}
-.wrapper .button:nth-child(9):hover .icon{
-  background: #ff9900;  /* amazon */
-}
-.wrapper .button:nth-child(10):hover .icon{
-  background: #037d50;  /* email */
+  background: #47cf73;
 }
 .wrapper .button .icon i{
   font-size: 25px;
@@ -300,36 +440,20 @@ div {
   transition: all 0.3s ease-out;
 }
 .wrapper .button:nth-child(1) span{
-  color: #4267b2;  /* facebook */
+  color: #4267b2;
 }
 .wrapper .button:nth-child(2) span{
-  color: #ff0000;  /* youtube */
+  color: #ff0000;
 }
 .wrapper .button:nth-child(3) span{
-  color: #1da1f2;  /* twitter */
+  color: #1da1f2;
 }
 .wrapper .button:nth-child(4) span{
-  color: #fffc00;  /* snapchat */
+  color: #fffc00;
 }
 .wrapper .button:nth-child(5) span{
-  color: #4078c0;  /* github */
+  color: #000000;
 }
 .wrapper .button:nth-child(6) span{
-  color: #0ebeff;  /* codepen */
+  color: #47cf73;
 }
-.wrapper .button:nth-child(7) span{
-  color: #0a66c2;  /* linkedin */
-}
-.wrapper .button:nth-child(8) span{
-  color: #b92b27;  /* quora */
-}
-.wrapper .button:nth-child(9) span{
-  color: #ff9900; /* amazon */
-}
-.wrapper .button:nth-child(10) span{
-  color: #037d50;  /* e-mail */
-}
-.socialIcons {
-  text-align: center;
-}
-

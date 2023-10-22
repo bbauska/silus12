@@ -1,3 +1,4 @@
+<!-- styles of silus12.bauska.org -->
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
 body {
   color:#fff;  /* white */
@@ -106,7 +107,7 @@ a:hover {
   text-align: center;
   font-size: 48px;
   font-weight: 300;
-  color:#00D2FF;
+  color:#00d2ff;  /* pure cyan */
 }
 #Content h3 {
   text-align: center;
@@ -115,27 +116,8 @@ a:hover {
   display: block;
   clear: both;
 }
-
-#subscribe p{
-  text-align:center;
-}
-#subscribe input {
-  background: rgba(255, 255, 255, 0.52); 
-  color: #000;
-  font: bold 19px;  
-  vertical-align: middle;
-  width: 293px;
-  border: 1px solid rgba(255, 255, 255, 0.76);
-  padding: 10px;
-}
-#subscribe input[type="button"]{
-  background: rgba(255, 255, 255, 1);
-  width:auto;
-  padding: 9px 25px;
-  cursor: pointer;
-  margin-left: -5px;
-}
 .countdown {
+  font-size: 20px;
   text-align:center;
 }
 .styled{
@@ -144,7 +126,7 @@ a:hover {
 .styled div {
   display: inline-block;
   margin-left: 10px;
-  font-size: 60px;
+  font-size: 45px;  /* 60px */
   font-weight: normal; 
   text-align: center;
   margin:0 25px;
@@ -258,13 +240,6 @@ div {
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-html,body{
-  display: grid;
-  height: 100%;
-  width: 100%;
-  place-items: center;
-<!--  background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%); -->
-}
 .wrapper .button{
   display: inline-block;
   height: 60px;
@@ -272,49 +247,88 @@ html,body{
   float: left;
   margin: 0 5px;
   overflow: hidden;
-  background: #fff;
+  background: #fff;  /* fff - white */
   border-radius: 50px;
   cursor: pointer;
   box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
-  transition: all 0.3s ease-out;
+  transition: all 0.4s ease-out;
 }
 .wrapper .button:hover{
   width: 200px;
+  text-decoration: none;  /* 10-21-23 */
 }
 .wrapper .button .icon{
+  color: fff;  /* white */
   display: inline-block;
   height: 60px;
   width: 60px;
   text-align: center;
+  text-decoration: none;  /* 10-21-23 */
   border-radius: 50px;
   box-sizing: border-box;
   line-height: 60px;
   transition: all 0.3s ease-out;
 }
+.wrapper .button:hover .icon i{
+  text-decoration: none;  /* 10-21-23 */
+  color: #fff;  /* white */
+}
+.wrapper .button:hover .icon a{
+  text-decoration: none;  /* 10-21-23 */
+  color: #fff;  /* white */
+}
+.wrapper .button:nth-child:hover(1) .icon{
+  text-decoration: none;  /* 10-21-23 */
+  background: #4267b2;  /* dark moderate blue */
+}
 .wrapper .button:nth-child(1):hover .icon{
-  background: #4267b2;
+  text-decoration: none;  /* 10-21-23 */
+  background: #4267b2;  /* dark moderate blue */
 }
 .wrapper .button:nth-child(2):hover .icon{
-  background: #ff0000;
+  text-decoration: none;  /* 10-21-23 */
+  background: #b2071d;  /* dark red */
 }
 .wrapper .button:nth-child(3):hover .icon{
-  background: #1da1f2;
+  text-decoration: none;  /* 10-21-23 */
+  background: #1da1f2;  /* vivid blue */
 }
 .wrapper .button:nth-child(4):hover .icon{
-  background: #fffc00;
+  text-decoration: none;  /* 10-21-23 */
+  background: #bfa600;  /* strong yellow */
 }
 .wrapper .button:nth-child(5):hover .icon{
-  background: #000000;
+  text-decoration: none;  /* 10-21-23 */
+  background: #171515;  /* very dark red */
 }
 .wrapper .button:nth-child(6):hover .icon{
-  background: #47cf73;
+  text-decoration: none;  /* 10-21-23 */
+  background: #0ebeff;  /* spiro disco ball */
 }
-.wrapper .button .icon i{
+.wrapper .button:nth-child(7):hover .icon{
+  text-decoration: none;  /* 10-21-23 */
+  background: #0077b5;  /* strong blue */
+}
+.wrapper .button:nth-child(8):hover .icon{
+  text-decoration: none;  /* 10-21-23 */
+  background: #b92b27;  /* strong red */
+}
+.wrapper .button:nth-child(9):hover .icon{
+  text-decoration: none;  /* 10-21-23 */
+  background: #ff9900;  /* pure orange */
+}
+.wrapper .button:nth-child(10):hover .icon{
+  text-decoration: none;  /* 10-21-23 */
+  background: #037d50;  /* dark green */
+}
+.wrapper .button .icon a{
+  text-decoration: none;  /* 10-21-23 */
   font-size: 25px;
   line-height: 60px;
   transition: all 0.3s ease-out;
 }
-.wrapper .button:hover .icon i{
+.wrapper .button:hover .icon a{
+  text-decoration: none;  /* 10-21-23 */
   color: #fff;
 }
 .wrapper .button span{
@@ -325,20 +339,32 @@ html,body{
   transition: all 0.3s ease-out;
 }
 .wrapper .button:nth-child(1) span{
-  color: #4267b2;
+  color: #3d5b99;  /* facebook */
 }
 .wrapper .button:nth-child(2) span{
-  color: #ff0000;
+  color: #e64a41;  /* b2071d; youtube */
 }
 .wrapper .button:nth-child(3) span{
-  color: #1da1f2;
+  color: #00aced;  /* twitter */
 }
 .wrapper .button:nth-child(4) span{
-  color: #fffc00;
+  color: #bfa600;  /* snapchat */
 }
 .wrapper .button:nth-child(5) span{
-  color: #000000;
+  color: #5a32a3;  /* github background 322f30 */
 }
 .wrapper .button:nth-child(6) span{
-  color: #47cf73;
+  color: #bfa600;  /* codepen */
+}
+.wrapper .button:nth-child(7) span{
+  color: #0077b5;  /* linkedin 0073a4 and 322f30 background */
+}
+.wrapper .button:nth-child(8) span{
+  color: #b92b27;  /* quora */
+}
+.wrapper .button:nth-child(9) span{
+  color: #ff9900;  /* amazon */
+}
+.wrapper .button:nth-child(10) span{
+  color: #037d50;  /* e-mail */
 }

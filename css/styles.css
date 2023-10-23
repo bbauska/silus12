@@ -126,7 +126,7 @@ a:hover {
 .styled div {
   display: inline-block;
   margin-left: 10px;
-  font-size: 45px;  /* 60px */
+  font-size: 60px;  /* 60px */
   font-weight: normal; 
   text-align: center;
   margin:0 25px;

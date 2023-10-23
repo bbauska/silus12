@@ -225,7 +225,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: #ffffff;
   perspective: 800px;
 }
 
@@ -248,7 +248,7 @@ div {
   float: left;
   margin: 0 5px;
   overflow: hidden;
-  background: #fff;  /* fff - white */
+  background: #ffffff;  /* fff - white */
   border-radius: 50px;
   cursor: pointer;
   box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
@@ -259,7 +259,7 @@ div {
   text-decoration: none;  /* 10-21-23 */
 }
 .wrapper .button .icon{
-  color: fff;  /* white */
+  color: ffffff;  /* white */
   display: inline-block;
   height: 60px;
   width: 60px;
@@ -272,11 +272,11 @@ div {
 }
 .wrapper .button:hover .icon i{
   text-decoration: none;  /* 10-21-23 */
-  color: #fff;  /* dark grey - fff white */
+  color: #ffffff;  /* dark grey - fff white */
 }
 .wrapper .button:hover .icon a{
   text-decoration: none;  /* 10-21-23 */
-  color: #fff;  /* fff white */
+  color: #ffffff;  /* fff white */
 }
 .wrapper .button:nth-child:hover(1) .icon{
   text-decoration: none;  /* 10-21-23 */
@@ -330,7 +330,7 @@ div {
 }
 .wrapper .button:hover .icon a{
   text-decoration: none;  /* 10-21-23 */
-  color: #fff;
+  color: #ffffff;
 }
 .wrapper .button span{
   font-size: 30px;  /* 20px */
@@ -400,5 +400,3 @@ div {
     margin-left: 20px;
   }
 }
-
-

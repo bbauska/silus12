@@ -46,6 +46,7 @@ h2 {
 h3 {
   font-size:25px;
   margin:0.2em 0; 
+  text-align:center;
 }
 .ie h3 {
   filter: dropshadow(color=#000000, offx=0, offy=3);

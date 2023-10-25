@@ -145,6 +145,15 @@ a:hover {
   transform: translateX(-50%) rotate(45deg);
   transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
+.wrapper h1 {
+  font-size:68px;
+  letter-spacing:-2px;	
+  line-height:60px;
+  margin:25px 0;  
+  text-align:center;
+  margin-left:15px;
+  padding-top:20px;
+}
 .wrapper .icon:hover span{
   color: #fff;
 }

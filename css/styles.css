@@ -159,6 +159,7 @@ a:hover {
 }
 .wrapper .icon:hover span{
   color: #fff;
+  text-align: center;
 }
 .wrapper .icon:hover span,
 .wrapper .icon:hover .tooltip{

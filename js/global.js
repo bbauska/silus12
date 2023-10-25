@@ -2,8 +2,8 @@
 $( function() {
   // Add background image for 14th birthday with kitterson.
   $.backstretch('images/Silus-and-Kitterson.jpg');
-    // set date of birth to October 11th, 11:59am & 59 seconds.
-    var endDate = "Oct  11, 2024 11:59:59";
+    // set date of birth to October 11th, 11:59am & 59 seconds (noon).
+    var endDate = "Oct  11, 2022 11:59:59";
     $('.countdown.simple').countdown({ date: endDate });
       $('.countdown.styled').countdown({
         date: endDate,

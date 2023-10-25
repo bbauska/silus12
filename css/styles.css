@@ -87,6 +87,7 @@ a:hover {
   z-index: 1;
 }  /* id Header */
 .wrapper{
+  text-align: center;
   display: inline-flex;
 }
 .wrapper .icon{

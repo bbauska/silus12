@@ -13,25 +13,7 @@ html, body{
   place-items:center;
   background:url(../images/Silus-and-Kitterson.jpg) no-repeat;
   background-size:cover;
-/*  background: linear-gradient(315deg, #ffffff, #d7e1ec ); */
 }
-/* @import url(https://fonts.googleapis.com/css?family=Oswald:400,700); */
-/* body { */
-/*   color:#fff;  /* white */
-/*   font-family: 'Oswald', sans-serif;   */
-/*   min-width:960px;  */
-/*   top:0;  */
-/*   left:0;  */
-/*   position:absolute;  */
-/*   height:100%;  */
-/*   width:100%;  */
-/*   margin:0;  */
-/*   background:url(../images/Silus-and-Kitterson.jpg) no-repeat;  */
-/*   background-size:cover;  */
-/* }  */
-/* .ie body {  */
-/*   filter: dropshadow(color=#000000, offx=0, offy=1);  */
-/* }  */
 h1 {
   font-size:68px;
   letter-spacing:-2px;	
@@ -68,7 +50,7 @@ p, pre {
 }
 code {
   text-transform:uppercase !important;
-  color:#EEE;	
+  color:#eee;	
   border-bottom:1px dotted #666;
 }
 small {
@@ -83,7 +65,7 @@ a {
   text-decoration:none;
 }
 a:hover {
-  color:#BBB;
+  color:#bbb;
 } 
 #Header {
   margin-bottom: 62px;
@@ -340,7 +322,7 @@ footer{
 }  /* end max-width: 420 */
 
 /* Silus */
-// Please change your favorite font-size!
+/* Please change your favorite font-size! */
 $fontSize: 8rem;
 
 body {
@@ -374,7 +356,7 @@ div {
     color: red;
     height: 2px;
   }
-/* unordered list styles */
+  /* unordered list styles */
   ul.list-styles {
     list-style-type: circle;
     margin-left: 20px;
